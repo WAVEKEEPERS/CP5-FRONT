@@ -31,4 +31,12 @@
     .titulo-biografia {
         @apply text-3xl font-bold text-blue-600 mb-4;
     }
+
+    .item-table {
+        @apply px-4 py-2 border border-gray-300;
+    }
+
+    tr {
+        @apply bg-gray-100 text-gray-600;
+    }
 }
