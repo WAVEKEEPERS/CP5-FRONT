@@ -32,6 +32,14 @@
         @apply text-3xl font-bold text-blue-600 mb-4;
     }
 
+    .item-table {
+        @apply px-4 py-2 border border-gray-300;
+    }
+
+    tr {
+        @apply bg-gray-100 text-gray-600;
+    }
+
     .titulo-livro{
         @apply p-8 max-w-2xl mx-auto bg-white rounded-lg shadow-md;
     }
@@ -47,5 +55,4 @@
     .p-livro{
         @apply mb-4;
     }
-
 }
