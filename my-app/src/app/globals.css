@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.titulo-topico {
+    @apply text-2xl font-semibold text-blue-500 mt-6;
+}
+
+.topicos {
+    @apply list-disc list-inside mb-4;
+}
+
+.titulo-biografia {
+    @apply text-3xl font-bold text-blue-600 mb-4;
+}
