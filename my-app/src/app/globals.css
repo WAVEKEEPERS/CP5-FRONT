@@ -39,4 +39,20 @@
     tr {
         @apply bg-gray-100 text-gray-600;
     }
+
+    .titulo-livro{
+        @apply p-8 max-w-2xl mx-auto bg-white rounded-lg shadow-md;
+    }
+
+    .h1-livro{
+        @apply text-2xl font-bold mb-6 text-center;
+    }
+
+    .h2-livro{
+        @apply text-xl font-semibold mb-4;
+    }
+
+    .p-livro{
+        @apply mb-4;
+    }
 }
