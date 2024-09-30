@@ -5,7 +5,7 @@ export default function Calculos() {
   
   const calculos = [
     {id:1,nome: 'Atração Gravitacional', description: 'Velikovsky sugeriu que a interação gravitacional entre planetas poderia causar catástrofes na Terra.'},
-    {id:2,nome: 'Distância de Astros', description: ''}, 
+    {id:2,nome: 'Distância de Astros', description: 'Velikovsky argumentou que a proximidade entre astros poderia alterar suas órbitas, causando catástrofes na Terra e influenciando a história humana.'}, 
   ];
   
   return (
