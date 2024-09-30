@@ -2,14 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-.titulo-topico {
-    @apply text-2xl font-semibold text-blue-500 mt-6;
-}
+@layer components{
+    
+    .cabecalho{
+        @apply bg-neutral-400 text-white text-3xl font-bold p-4 w-[100vw] h-[24vh] m-auto text-center;
+    }
 
-.topicos {
-    @apply list-disc list-inside mb-4;
-}
+    .rodape{
+        @apply bg-neutral-400 text-white text-3xl font-bold p-4 w-[100vw] h-[10vh] m-auto text-center;
+    }
 
-.titulo-biografia {
-    @apply text-3xl font-bold text-blue-600 mb-4;
+    .titulo-home{
+        @apply bg-cyan-200	 text-black text-3xl font-bold p-4 w-[100vw] h-[10vh] m-auto text-start;
+    }
+
+    .paragrafo-home{
+        @apply bg-cyan-200	 text-black text-3xl font-bold p-4 w-[100vw] h-[50vh] m-auto text-start;
+    }
+
+    .titulo-topico {
+        @apply text-2xl font-semibold text-blue-500 mt-6;
+    }
+    
+    .topicos {
+        @apply list-disc list-inside mb-4;
+    }
+    
+    .titulo-biografia {
+        @apply text-3xl font-bold text-blue-600 mb-4;
+    }
 }
