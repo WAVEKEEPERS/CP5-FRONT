@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    
+    .cabecalho{
+        @apply bg-neutral-400 text-white text-3xl font-bold p-4 w-[100vw] h-[28vh] m-auto text-center;
+    }
+
+    .rodape{
+        @apply bg-neutral-400 text-white text-3xl font-bold p-4 w-[100vw] h-[10vh] m-auto text-center;
+    }
+
+    .titulo-home{
+        @apply bg-cyan-200	 text-black text-3xl font-bold p-4 w-[100vw] h-[10vh] m-auto text-start;
+    }
+
+    .paragrafo-home{
+        @apply bg-cyan-200	 text-black text-3xl font-bold p-4 w-[100vw] h-[50vh] m-auto text-start;
+    }
+}
