@@ -5,7 +5,7 @@
 @layer components{
     
     .cabecalho{
-        @apply bg-neutral-400 text-white text-3xl font-bold p-4 w-[100vw] h-[28vh] m-auto text-center;
+        @apply bg-neutral-400 text-white text-3xl font-bold p-4 w-[100vw] h-[24vh] m-auto text-center;
     }
 
     .rodape{
