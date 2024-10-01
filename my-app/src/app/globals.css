@@ -5,11 +5,11 @@
 @layer components{
     
     .cabecalho{
-        @apply bg-neutral-400 text-white text-3xl font-bold p-4 w-[100vw] h-[24vh] m-auto text-center;
+        @apply bg-neutral-400 text-white text-3xl font-bold p-4 m-auto text-center;
     }
 
     .rodape{
-        @apply bg-neutral-400 text-white text-3xl font-bold p-4 w-[100vw] h-[10vh] m-auto text-center;
+        @apply bg-neutral-400 text-white text-3xl font-bold p-4 m-auto text-center;
     }
 
     .titulo-home{
@@ -41,7 +41,7 @@
     }
 
     .titulo-livro{
-        @apply p-8 max-w-2xl mx-auto bg-white rounded-lg shadow-md;
+        @apply p-8 max-w-2xl mx-auto bg-white;
     }
 
     .h1-livro{
@@ -54,5 +54,9 @@
 
     .p-livro{
         @apply mb-4;
+    }
+
+    .capa-livro{
+        @apply flex justify-center items-center;
     }
 }
