@@ -1,13 +1,14 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Livro() {
   return (
     <div className="titulo-livro">
       <h1 className="h1-livro">Worlds in Collision - Immanuel Velikovsky</h1>
-      <img className='capa-livro' src="capa-livro.jpg" alt="capa do livro" />
+      <Image className='capa-livro' src="/capa-livro.jpg" alt="capa do livro" width={500} height={500}/>
       <h2 className="h2-livro">Sobre o Livro</h2>
       <p className="p-livro">
-        "Worlds in Collision" é uma obra publicada em 1950 que propõe uma nova perspectiva sobre a história e a ciência,
+        Worlds in Collision é uma obra publicada em 1950 que propõe uma nova perspectiva sobre a história e a ciência,
         sugerindo que eventos cataclísmicos, causados por interações planetárias, influenciaram o desenvolvimento da civilização
         e os mitos de diversas culturas.
       </p>
